@@ -23,7 +23,8 @@ Tal como se pidió, se encuentra todo en el archivo [INDEX](./index.php)
 IDE ONLINE PROPORCIONADA:  https://phpsandbox.io/n/black-tion-medon-hsmot#index.php  
 EXTRA: Se utilizó `phpdoc` para documentar en el archivo mismo.  
 <br>
-Se utilizaron los principios de POO=  
+Se utilizaron los principios de POO=
+
 *Herencia* = La clase hija ViajeNormal extiende de la clase Viaje
 
 *Composición*= La clase tiene instancias dentro de ellas, camión tiene una hoja de ruta.  
