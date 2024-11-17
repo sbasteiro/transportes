@@ -24,13 +24,15 @@ IDE ONLINE PROPORCIONADA:  https://phpsandbox.io/n/black-tion-medon-hsmot#index.
 EXTRA: Se utilizó `phpdoc` para documentar en el archivo mismo.  
 <br>
 Se utilizaron los principios de POO=  
-*Herencia* = La clase hija ViajeNormal extiende de la clase Viaje  
+*Herencia* = La clase hija ViajeNormal extiende de la clase Viaje
+
 *Composición*= La clase tiene instancias dentro de ellas, camión tiene una hoja de ruta.  
+
 *Polimorfismo*=  ViajeNormal, ViajePrioritario, y ViajeDevolucion comparten un mismo método calcularCosto(), tienen el mismo nombre de método pero diferente implementación.
 
-5. **Test Unitarios:**  
+6. **Test Unitarios:**  
 Se instaló phpUnit para esto, para ejecutarlo se ingresa php `phpunit.phar`  
 [ARCHIVO CAMIONTEST](./tests/CamionTest.php)
 
-6. **Diagrama de clases:**  
+7. **Diagrama de clases:**  
 ![UML](./diagramaclases.png)
