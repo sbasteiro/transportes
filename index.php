@@ -5,7 +5,7 @@
  */
 class Camion {
 
-/** @var string Modelo del camión. */
+    /** @var string Modelo del camión. */
     private string $modelo;
 
     /** @var string Patente del camión. */
@@ -14,7 +14,7 @@ class Camion {
     /** @var float Peso máximo soportado por el camión en kg. */
     private float $pesoMaximo;
 
-    /** @var float Volumen máximo soportado por el camión (en m³). */
+    /** @var float Volumen máximo soportado por el camión en metros cúbicos. */
     private float $volumenMaximo; 
 
     /** @var HojaDeRuta|null Hoja de ruta asignada al camión. */
